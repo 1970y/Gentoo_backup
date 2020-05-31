@@ -1,0 +1,14 @@
+Kernel:		Gentoo source
+DE:		Gnome
+xdm:		gdm
+Icons:		Tela-blue-dark [GTK2/3]
+Themes:		Layan [GTK2/3]
+Filesystem:	/dev/nvme0n1p1
+		===> on /boot
+		/dev/nvme0n1p5
+		===> swap
+		/dev/nvme0n1p2
+		===> subvol=Gentoo on /
+		===> subvol=Home   on /home
+Terminal Theme:	OneDark
+Font:		wqy-microhei, cascadia code
